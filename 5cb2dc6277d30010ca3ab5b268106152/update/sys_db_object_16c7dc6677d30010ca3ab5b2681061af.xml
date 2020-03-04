@@ -11,28 +11,28 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Matt</label>
+        <label>Custom Metadata</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>u_matt</name>
+        <name>u_custom_metadata</name>
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class/>
+        <super_class display_value="Application File" name="sys_metadata">cc463012d9130010e839f924c1e5615e</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-03-04 20:11:25</sys_created_on>
-        <sys_id>aad3dca277d30010ca3ab5b26810614e</sys_id>
+        <sys_created_on>2020-03-04 20:31:43</sys_created_on>
+        <sys_id>16c7dc6677d30010ca3ab5b2681061af</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Matt</sys_name>
+        <sys_name>Custom metadata</sys_name>
         <sys_package display_value="GMar4Kish" source="5cb2dc6277d30010ca3ab5b268106152">5cb2dc6277d30010ca3ab5b268106152</sys_package>
         <sys_policy/>
         <sys_scope display_value="GMar4Kish">5cb2dc6277d30010ca3ab5b268106152</sys_scope>
-        <sys_update_name>sys_db_object_aad3dca277d30010ca3ab5b26810614e</sys_update_name>
+        <sys_update_name>sys_db_object_16c7dc6677d30010ca3ab5b2681061af</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-04 20:11:25</sys_updated_on>
+        <sys_updated_on>2020-03-04 20:31:43</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="gmar4kish_user" name="gmar4kish_user">94b2dc6277d30010ca3ab5b2681061db</user_role>
         <ws_access>true</ws_access>

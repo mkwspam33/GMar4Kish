@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Custom metadata" max_length="40" name="u_custom_metadata" type="collection">
+        <element label="Script" max_length="8000" name="u_script" type="script"/>
+    </element>
+</database>

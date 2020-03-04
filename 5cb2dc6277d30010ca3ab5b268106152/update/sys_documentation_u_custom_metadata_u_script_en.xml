@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_mattstr2" label="MattStr2" language="en" table="u_matt">
+    <sys_documentation element="u_script" label="Script" language="en" table="u_custom_metadata">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_mattstr2</element>
+            <element>u_script</element>
             <help/>
             <hint/>
-            <label>MattStr2</label>
+            <label>Script</label>
             <language>en</language>
-            <name>u_matt</name>
-            <plural>MattStr2s</plural>
+            <name>u_custom_metadata</name>
+            <plural>Scripts</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-04 20:11:26</sys_created_on>
-            <sys_id>6885d42677d30010ca3ab5b268106157</sys_id>
+            <sys_created_on>2020-03-04 20:31:44</sys_created_on>
+            <sys_id>1de790a677d30010ca3ab5b2681061ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>MattStr2</sys_name>
+            <sys_name>Script</sys_name>
             <sys_package display_value="GMar4Kish" source="5cb2dc6277d30010ca3ab5b268106152">5cb2dc6277d30010ca3ab5b268106152</sys_package>
             <sys_policy/>
             <sys_scope display_value="GMar4Kish">5cb2dc6277d30010ca3ab5b268106152</sys_scope>
-            <sys_update_name>sys_documentation_u_matt_u_mattstr2_en</sys_update_name>
+            <sys_update_name>sys_documentation_u_custom_metadata_u_script_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-04 20:11:26</sys_updated_on>
+            <sys_updated_on>2020-03-04 20:31:44</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
