@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="active" label="Active" language="en" table="goal">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <help/>
+            <hint/>
+            <label>Active</label>
+            <language>en</language>
+            <name>goal</name>
+            <plural>Active</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2020-03-04 04:18:08</sys_created_on>
+            <sys_id>fb097cd2d9170010e839f924c1e56193</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Active</sys_name>
+            <sys_package display_value="Organization Extension" source="com.snc.organization_extension">23097cd2d9170010e839f924c1e5612e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GMar4Kish">5cb2dc6277d30010ca3ab5b268106152</sys_scope>
+            <sys_update_name>sys_documentation_goal_active_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-04 20:17:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="GMar4Kish">5cb2dc6277d30010ca3ab5b268106152</claim_owner_scope>
+        <claim_timestamp>170a731fd850000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_goal_active_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>GMar4Kish</previous_claim_name>
+        <previous_claim_scope>5cb2dc6277d30010ca3ab5b268106152</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 20:17:16</sys_created_on>
+        <sys_id>519458e277d30010ca3ab5b26810614a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 20:17:16</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="GMar4Kish">5cb2dc6277d30010ca3ab5b268106152</claim_owner_scope>
+        <claim_timestamp>170a731fd7e0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_goal_active_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.organization_extension</previous_claim_name>
+        <previous_claim_scope>com.snc.organization_extension</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 20:17:16</sys_created_on>
+        <sys_id>159458e277d30010ca3ab5b26810614a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 20:17:16</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Goal" max_length="40" name="goal" sizeclass="5" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Actual achievement till date" max_length="40" name="actual_achievement_till_date" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="1000" name="comments" type="string"/>
+        <element choice="3" label="Direction" max_length="40" name="direction" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Maximize" sequence="0" value="increase"/>
+                <element inactive_on_update="false" label="Minimize" sequence="1" value="decrease"/>
+            </choice>
+        </element>
+        <element label="Planned achievement" max_length="40" name="estimated_achievement" type="float"/>
+        <element choice="3" label="Goal Indicator" max_length="40" name="goal_indicator" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Total Applications" sequence="0" value="total_applications"/>
+                <element inactive_on_update="false" label="Total Cost" sequence="1" value="total_cost"/>
+                <element inactive_on_update="false" label="Opex" sequence="2" value="opex"/>
+                <element inactive_on_update="false" label="Capex" sequence="3" value="capex"/>
+                <element inactive_on_update="false" label="Cloud Applications" sequence="4" value="cloud_applications"/>
+                <element inactive_on_update="false" label="Homegrown Applications" sequence="5" value="homegrown_applications"/>
+                <element inactive_on_update="false" label="Support Cost" sequence="6" value="support_cost"/>
+                <element inactive_on_update="false" label="Labor Cost" sequence="7" value="labor_cost"/>
+                <element inactive_on_update="false" label="Standards Compliance" sequence="8" value="standards_compliance"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Owner" max_length="32" name="goal_owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Short description" max_length="80" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="Achieved" sequence="2" value="achieved"/>
+                <element inactive_on_update="false" label="Not Achieved" sequence="3" value="not_achieved"/>
+            </choice>
+        </element>
+        <element choice="3" label="Status indicator" max_length="40" name="status_indicator" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="0" value="red"/>
+                <element inactive_on_update="false" label="Yellow" sequence="1" value="yellow"/>
+                <element inactive_on_update="false" label="Green" sequence="2" value="green"/>
+            </choice>
+        </element>
+        <element default="global" hint="Domain to which the goal belongs" label="Domain" max_length="32" name="sys_domain" type="domain_id"/>
+        <element attributes="case_sensitive=true" default="/" label="Domain Path" max_length="255" name="sys_domain_path" type="domain_path"/>
+        <element label="Target" max_length="40" name="target_value" type="float"/>
+        <element attributes="encode_utf8=false" label="Task" max_length="32" name="task" reference="task" reference_cascade_rule="delete" type="reference"/>
+        <element attributes="encode_utf8=false" hint="Specifies the unit of measurement to be used for the target." label="Unit" max_length="32" name="unit" reference="pa_units" type="reference"/>
+        <index name="index">
+            <element name="unit"/>
+        </index>
+        <index name="index2">
+            <element name="task"/>
+        </index>
+        <index name="index3">
+            <element name="sys_domain"/>
+        </index>
+        <index name="index4">
+            <element name="goal_owner"/>
+        </index>
+        <index name="index5">
+            <element name="sys_domain_path"/>
+        </index>
+    </element>
+</database>
